@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+
+body {font:14px; font-family:"KOTRA";}
+	#wrapper {width:100%;  margin:0 auto; background:#000;}
+	#header { width:100% margin:0 auto; height:100px; background:#fff;}
+	#header h1 {float:left; }
+	#header h1 img { width:150px; margin-left:10px; margin-top:-2px; }
+		.bar { float:right;}
+		.bar li {  height:100px; line-height:100px;}
+		.bar li a { display:inline-block; width:100px; margin:0 20px 0 20px; text-align:center;}
+		.bar li a:hover { background:#000; color:white;}
+	.dropdown { position:relative;}
+	.dropdown-content { display:none; position:absolute; z-index:10; background-color: #fff; left:0px;}
+	.dropdown-content a { color:black;}
+	
+	
+	#container {clear:both; width:1280px; margin:0 auto; position:relative;}
+		#video video {float:left; }
+		.one img { float:left; width:1280px; height:1000px; margin-bottom:200px; transition:1s; vertical-align:middle; object-fit:cover;}
+		.one h2 {float:left; position:absolute; color:white; top:1650px; left:575px; font-size:50px;}
+		.one p {float:left; position:absolute; color:white; top:1715px; left:575px; font-size:20px;}
+		
+	.clip {clip-path: inset(500px 560px 370px 560px); cursor:pointer;}
+	.clip:hover {clip-path: inset(0 0 0 0);}
+		
+	.main {clear:both; width:1280px; margin:0 auto; position:relative; }
+	.main img {position:absolute; width:700px; height:700px; object-fit:contain; z-index:10; top:-150px; left:500px; transition:1s; cursor:pointer;}
+	.main h3 {position:absolute; color:#fff; font-size:40px; left:820px; top:150px;}
+	.main a {position:absolute; top:650px; left:200px; color:#fff; font-size:20px; transition:1s; z-index:100;}  
+	.main a:hover {transform: scale(1.2);}  
+	#myModal {background-color:rgba(0,0,0,0.3); justify-content:center; align-items:center; position:fixed; top:0; left:0; right:0; bottom:0; display:none; padding:15px; z-index:1000;}
+	.popup { width:100%; max-width:450px; height:520px; border-radius:10px; overflow:hidden; background-color:#fff; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); box-shadow:5px 10px 10px 1px rgba(0,0,0,.3);}
+	.popup-head { width:100%; height:50px; display:flex; align-items:center; justify-content:center; font-size:25px; color:#000;}
+	.popup-body {width:100%; background-color:#000;}
+	.body-content { width:100%; padding:30px;}
+	.body-titlebox { display:flex; align-items:center; justify-content:center; width:100%; height:40px; margin-bottom:10px; margin-left:-30px;}
+	.body-titlebox h1 {color:#fff; }
+	.body-contentbox {word-break:break-word; overflow-y:auto; min-height:310px; max-height:310px; color:#fff;}
+	.popup-foot {width:100%; height:50px;}
+	.pop-btn { display:inline-flex; width:50%; height:100%; justify-content:center; align-items:center; float:left; color:#000; cursor:pointer; }
+	.white { width:550px; height:140px;  margin:100px auto; border:1px solid #000; color:#000; font:bold 25px arial; }
+	.white .cross { width:100%; height:100%; background:white; }
+	
+			.white:nth-child(3) .cross { transform : skewX(30deg) translateX(-250px);}
+			.white:nth-child(4) .cross { transform : skewX(30deg) translateX(-120px); }
+			.white:nth-child(5) .cross { transform : skewX(30deg) translateX(10px);}
+			.white:nth-child(6) .cross { transform : skewX(30deg) translateX(140px);}
+			
+	.last {width:1280px; margin:0 auto; position:relative;}
+	.last img {position:absolute; width:700px; height:700px; object-fit:contain; z-index:10; top:-100px; left:-40px;transition:1s; cursor:pointer;}
+	.last h3 {position:absolute; color:#fff; font-size:40px; left:20px; top:200px;}
+	.last a {position:absolute; top:730px; left:910px; color:#fff; font-size:20px; transition:1s; z-index:100;}  
+	.last a:hover {transform: scale(1.2);} 
+	.black { width:550px; height:140px;  margin:100px auto; border:1px solid #000; color:#000; font:bold 25px arial; }
+	
+	.black .cross { width:100%; height:100%; background:white; }
+			
+			.black:nth-child(3) .cross { transform : skewX(155deg) translateX(150px);}
+			.black:nth-child(4) .cross { transform : skewX(155deg) translateX(50px);}
+			.black:nth-child(5) .cross { transform : skewX(155deg) translateX(-50px);}
+			.black:nth-child(6) .cross { transform : skewX(155deg) translateX(-150px);}
+			
+#footer {width:100%; margin:0 auto; background:#fff; text-align:center;}
+	.icon {}
+	.icon li a img {width:60px; object-fit:contain; margin:10px; }
+	.foot li {}
+	.foot li a {margin-right:5px; }
+	address {margin-top:10px; font-size:13px;}
+	
+	#footer, #container { display:none;}

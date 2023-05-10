@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+* {margin:0;padding:0;}
+		li{list-style-type:none; display:inline;}
+		img, fieldset{border:none; vertical-align:bottom;}
+		i, em, address {font-style:normal;}
+		table {border-collapse:collapse;}
+		table, th, td{border:;}
+		#skipnavi, .hdd {display:none;}
+		a { color:#000; text-decoration:none;}
+		a:hover {color:#f00;}
+		/*body{background:url("images/bg_grid.gif");}
+				body{ opacity:0.7;}  익스는 적용안됨.*/
